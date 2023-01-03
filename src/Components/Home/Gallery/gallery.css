@@ -67,8 +67,15 @@ position: relative;
 
 
 
-.gallery-img {
+.gallery-img-cont {
     height: 250px;
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-img {
+    height: 100%;
     width: auto;
     border-radius: 10px;
 }

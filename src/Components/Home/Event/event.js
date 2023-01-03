@@ -59,7 +59,7 @@ const event = [
 function Event() {
     return (
         <div className="event-container-div">
-            <Container maxWidth='lg' className="event-container">
+            <Container maxWidth='lg' className="event-container" sx={{ pb: 4 }}>
                 <div style={{ height: '10vh' }}></div>
                 <div className="event-heading">எமது நிகழ்வுகள்</div>
                 <div style={{ height: '10vh' }}></div>
