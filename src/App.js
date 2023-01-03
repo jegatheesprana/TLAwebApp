@@ -1,9 +1,20 @@
+import { useRoutes } from 'react-router-dom';
+
 import './App.css';
-import Home from './Pages/Home'
+
+import Router from './Router'
+import Navbar from './Components/Home/Navbar/navbar';
+import Footer from './Components/Home/Footer/footer';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
-    <Home />
+    <>
+      <ScrollToTop />
+      <Navbar />
+      <Router />
+      <Footer />
+    </>
   );
 }
 

@@ -22,6 +22,7 @@ const Timeline = () => {
                             date={event.date}
                             content={event.descriiption}
                             active={event.active}
+                            link={event.link}
                         />
                     ))}
 

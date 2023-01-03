@@ -5,3 +5,12 @@
     letter-spacing: normal;
     text-align: center;
 }
+
+.heading-icon {
+    height: 75px;
+    width: 75px;
+    background-image: url(../../images/Introduction/circle.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}

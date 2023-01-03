@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
+
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -17,7 +19,7 @@ import { Container } from '@mui/material';
 import './navbar.css'
 import Logo from '../../../images/Logo-Nav/logo.png'
 const drawerWidth = 240;
-const navItems = ['முகப்பு', 'அறிமுகம்', 'நிகழ்வுகள்','காட்சி கூடம்','தொடர்புகள்'];
+const navItems = [{ name: 'முகப்பு' }, { name: 'அறிமுகம்' }, { name: 'நிகழ்வுகள்' }, { name: 'காட்சி கூடம்' }, { name: 'தொடர்புகள்' }];
 
 function Navbar(props) {
   const { window } = props;
@@ -29,15 +31,17 @@ function Navbar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}  className='nav-Items'>
-        <img src={Logo}alt='' height={50}/>
+      <Typography variant="h6" sx={{ my: 2 }} className='nav-Items'>
+        <Link to="/">
+          <img src={Logo} alt='' height={50} />
+        </Link>
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding >
+          <ListItem key={item.name} disablePadding >
             <ListItemButton sx={{ textAlign: 'center' }} >
-              <ListItemText ><div className='nav-Items'>{item}</div></ListItemText>
+              <ListItemText ><div className='nav-Items'>{item.name}</div></ListItemText>
             </ListItemButton>
           </ListItem>
         ))}
@@ -48,17 +52,17 @@ function Navbar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-   
-    <Box sx={{ display: 'flex' ,    height:'10vh'}}>
-      
+
+    <Box sx={{ display: 'flex', height: '64px' }}>
+
       <AppBar component="nav" className='appBar'> <Container maxWidth='xl' >
-        <Toolbar sx={{ height:'10vh'}}>
+        <Toolbar sx={{ height: '64px' }}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' },color:"#022345" }}
+            sx={{ mr: 2, display: { sm: 'none' }, color: "#022345" }}
           >
             <MenuIcon />
           </IconButton>
@@ -68,18 +72,20 @@ function Navbar(props) {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             className='nav-Items'
           >
-                    <img src={Logo}alt='' height={50}/>
+            <Link to="/">
+              <img src={Logo} alt='' height={50} />
+            </Link>
 
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item}  className='nav-Items'>
-                {item}
+              <Button key={item.name} className='nav-Items'>
+                {item.name}
               </Button>
             ))}
           </Box>
         </Toolbar>
-        </Container>
+      </Container>
       </AppBar>
       <Box component="nav">
         <Drawer
@@ -100,10 +106,10 @@ function Navbar(props) {
       </Box>
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
-        
+
       </Box>
     </Box>
-   
+
   );
 }
 

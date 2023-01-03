@@ -9,7 +9,6 @@ function Intro() {
     return (
         <div className="intro-container-div">
             <Container maxWidth='xl' className="intro-container">
-                <div style={{ height: '15vh' }}></div>
                 <Heading>அறிமுகம்</Heading>
                 <Grid
                     container
