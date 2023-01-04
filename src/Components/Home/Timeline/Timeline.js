@@ -9,7 +9,7 @@ import './style.css'
 
 const Timeline = () => {
     return (
-        <div className="timeline-container-div">
+        <div className="timeline-container-div" id="timeline">
             <Container maxWidth='lg' sx={{ py: 1 }}>
                 <Heading>நிகழ்வுகள்</Heading>
                 <VerticalTimeline

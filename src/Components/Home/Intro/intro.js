@@ -7,7 +7,7 @@ import './intro.css'
 
 function Intro() {
     return (
-        <div className="intro-container-div">
+        <div className="intro-container-div" id="intro">
             <Container maxWidth='xl' className="intro-container">
                 <Heading>அறிமுகம்</Heading>
                 <Grid

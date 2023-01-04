@@ -50,7 +50,7 @@ const gallery = [
 
 function Gallery() {
     return (
-        <div className="gallery-container-div">
+        <div className="gallery-container-div" id="gallery">
             <Container maxWidth='lg' className="gallery-container">
                 <Heading >கலை காட்சி கூடம்</Heading>
                 <Grid
