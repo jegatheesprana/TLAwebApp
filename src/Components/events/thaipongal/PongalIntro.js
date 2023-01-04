@@ -2,7 +2,7 @@ import React from "react";
 import {
     Grid, Container
 } from '@mui/material'
-import Heading from "../../shared/Heading";
+import Heading from "../../../shared/Heading";
 import './intro.css'
 
 function PongalIntro() {

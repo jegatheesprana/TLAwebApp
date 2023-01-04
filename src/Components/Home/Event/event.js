@@ -10,6 +10,7 @@ import img3 from '../../../images/Events/Card Illustration/ani3.png'
 import img4 from '../../../images/Events/Card Illustration/ani4.png'
 import img5 from '../../../images/Events/Card Illustration/ani5.png'
 import img6 from '../../../images/Events/Card Illustration/ani6.png'
+import Heading from "../../../shared/Heading";
 
 const event = [
     {
@@ -65,11 +66,9 @@ const event = [
 
 function Event() {
     return (
-        <div className="event-container-div">
+        <div className="event-container-div" id="event">
             <Container maxWidth='lg' className="event-container" sx={{ pb: 4 }}>
-                <div style={{ height: '10vh' }}></div>
-                <div className="event-heading">எமது நிகழ்வுகள்</div>
-                <div style={{ height: '10vh' }}></div>
+                <Heading>எமது நிகழ்வுகள்</Heading>
                 <Grid
                     container
                     direction="row"

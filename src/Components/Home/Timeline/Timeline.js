@@ -1,6 +1,6 @@
 import Container from '@mui/material/Container'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import Heading from '../../shared/Heading';
+import Heading from '../../../shared/Heading';
 import TimelineItem from './TimelineItem';
 
 import events from './events';
@@ -9,7 +9,7 @@ import './style.css'
 
 const Timeline = () => {
     return (
-        <div className="timeline-container-div">
+        <div className="timeline-container-div" id="timeline">
             <Container maxWidth='lg' sx={{ py: 1 }}>
                 <Heading>நிகழ்வுகள்</Heading>
                 <VerticalTimeline

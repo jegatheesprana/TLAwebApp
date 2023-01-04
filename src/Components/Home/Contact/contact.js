@@ -1,17 +1,13 @@
 import React from "react"
 import { Container, Grid } from '@mui/material'
 import './contact.css'
+import Heading from "../../../shared/Heading";
 
 function Contact() {
     return (
-        <div className="contact-container-div">
+        <div className="contact-container-div" id="contact">
             <Container maxWidth='xl' className="contact-container-div">
-                {/* <div style={{ height: '10vh' }}></div> */}
-
-                <div className="contact-heading">
-                    தொடர்புகள்
-                </div>
-                <div style={{ height: '5vh' }}></div>
+                <Heading>தொடர்புகள்</Heading>
 
                 <div className="contact-container">
                     <Grid
@@ -23,7 +19,7 @@ function Contact() {
                         <Grid item>
                             <div className="contact-row">NAME</div>
                             <div className="contact-icon-div">
-                                <input className="contact-input"></input> <span class=" contact-icon material-symbols-outlined">
+                                <input className="contact-input"></input> <span className=" contact-icon material-symbols-outlined">
                                     person
                                 </span>
                             </div>
@@ -31,7 +27,7 @@ function Contact() {
                         <Grid item>
                             <div className="contact-row">EMAIL</div>
                             <div className="contact-icon-div">
-                                <input className="contact-input"></input> <span class=" contact-icon material-symbols-outlined">
+                                <input className="contact-input"></input> <span className=" contact-icon material-symbols-outlined">
                                     mail
                                 </span>
                             </div>                        </Grid>
@@ -44,7 +40,7 @@ function Contact() {
                             <button className="contact-send-button">Send Message</button>
                         </Grid>
                     </Grid>
-                   
+
 
                 </div>
             </Container>

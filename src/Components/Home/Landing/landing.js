@@ -6,37 +6,37 @@ import './landing.css'
 import Img from '../../../images/LandingPage/V01.png'
 function Landing() {
     return (
-        <div className="landing-container-div">
+        <div className="landing-container-div" id="landing">
             <Container maxWidth='' className="landing-container">
-            <div className="landing-space "></div>
+                <div className="landing-space "></div>
                 <Grid
                     container
                     direction="row"
                     justifyContent="space-between"
                     alignItems="center"
                 >
-                
-                           
-                        <Grid item sm='6'> <div style={{ height: '1vh' }}></div>
-                            <div className="landing-heading1"><span className="landing-heading-letter">தி</span>த்திக்கும் தமிழில் நித்திலம் சொரிய
-எத்திக்கும் அதிர்ந்திட சங்கே முழங்கு!</div>
 
-                        </Grid>
-                      
+
+                    <Grid item sm='6'> <div style={{ height: '1vh' }}></div>
+                        <div className="landing-heading1"><span className="landing-heading-letter">தி</span>த்திக்கும் தமிழில் நித்திலம் சொரிய
+                            எத்திக்கும் அதிர்ந்திட சங்கே முழங்கு!</div>
+
+                    </Grid>
+
 
 
                     <Grid
                         container item sm='6'
-                       
+
                         sx={{
                             display: { md: 'block', xs: '' }
-                          }}
+                        }}
                     >
-                        
-                        <img src={Img} alt='' className="landing-img"/>
+
+                        <img src={Img} alt='' className="landing-img" />
 
                     </Grid>
-                    
+
                 </Grid>
             </Container>
         </div>

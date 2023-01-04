@@ -19,7 +19,7 @@ import { Container } from '@mui/material';
 import './navbar.css'
 import Logo from '../../../images/Logo-Nav/logo.png'
 const drawerWidth = 240;
-const navItems = [{ name: 'முகப்பு' }, { name: 'அறிமுகம்' }, { name: 'நிகழ்வுகள்' }, { name: 'காட்சி கூடம்' }, { name: 'தொடர்புகள்' }];
+const navItems = [{ name: 'முகப்பு', link: '/#landing' }, { name: 'அறிமுகம்', link: '/#intro' }, { name: 'நிகழ்வுகள்', link: '/#events' }, { name: 'காட்சி கூடம்', link: '/#gallery' }, { name: 'தொடர்புகள்', link: '/#contact' }];
 
 function Navbar(props) {
   const { window } = props;
@@ -32,7 +32,7 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }} className='nav-Items'>
-        <Link to="/">
+        <Link to="/" style={{ display: 'flex' }}>
           <img src={Logo} alt='' height={50} />
         </Link>
       </Typography>
@@ -72,7 +72,7 @@ function Navbar(props) {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             className='nav-Items'
           >
-            <Link to="/">
+            <Link to="/" style={{ display: 'flex' }}>
               <img src={Logo} alt='' height={50} />
             </Link>
 
