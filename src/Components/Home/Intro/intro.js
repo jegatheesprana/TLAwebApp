@@ -1,14 +1,15 @@
 import React from "react";
 import {
-    Grid, Container
+    Grid, Container, Box
 } from '@mui/material'
-import Heading from "../../shared/Heading";
+import Heading from "../../../shared/Heading";
 import './intro.css'
+import ReactPlayer from 'react-player'
 
 function Intro() {
     return (
         <div className="intro-container-div" id="intro">
-            <Container maxWidth='xl' className="intro-container">
+            <Container maxWidth='xl' className="intro-container" sx={{ pb: 2 }}>
                 <Heading>அறிமுகம்</Heading>
                 <Grid
                     container
@@ -34,6 +35,9 @@ function Intro() {
                     </Grid>
 
                 </Grid>
+                <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+                    <ReactPlayer url='https://fb.watch/hQ_elvyOkd/' />
+                </Box>
             </Container>
         </div>
     );

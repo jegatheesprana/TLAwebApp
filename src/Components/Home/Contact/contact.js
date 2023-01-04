@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Grid } from '@mui/material'
 import './contact.css'
-import Heading from "../../shared/Heading";
+import Heading from "../../../shared/Heading";
 
 function Contact() {
     return (

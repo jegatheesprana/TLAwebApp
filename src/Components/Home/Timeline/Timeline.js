@@ -1,6 +1,6 @@
 import Container from '@mui/material/Container'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import Heading from '../../shared/Heading';
+import Heading from '../../../shared/Heading';
 import TimelineItem from './TimelineItem';
 
 import events from './events';
