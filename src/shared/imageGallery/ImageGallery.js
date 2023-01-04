@@ -22,14 +22,16 @@ const ImageGallery = ({ images }) => {
                 direction="row"
                 justifyContent="space-around"
                 alignItems="center"
-                spacing={4}
+                spacing={2}
             >
                 {images.map((gallery, index) => <>
-                    <Grid item xl='4' lg='4' md='6' sm='12' xs='12' key={index} onClick={() => handleClick(index)} >
+                    <Grid item key={index} >
                         <div className="img-gallery-card">
                             <div className="img-gallery-card-top">
                                 {/* <div className="img-gallery-card-title"> {gallery.title}</div> */}
-                                <div className="img-gallery-img-cont"><img src={gallery.thumbnail} alt="" className="img-gallery-img" /></div>
+                                <div className="img-gallery-img-cont">
+                                    <img src={gallery.thumbnail} onClick={() => handleClick(index)} style={{ cursor: 'pointer' }} alt="" className="img-gallery-img" />
+                                </div>
                             </div>
                             {/* <div className="img-gallery-heading1">{gallery.descriiption}</div> */}
                         </div>

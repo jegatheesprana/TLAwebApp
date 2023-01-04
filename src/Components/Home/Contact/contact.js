@@ -19,7 +19,7 @@ function Contact() {
                         <Grid item>
                             <div className="contact-row">NAME</div>
                             <div className="contact-icon-div">
-                                <input className="contact-input"></input> <span class=" contact-icon material-symbols-outlined">
+                                <input className="contact-input"></input> <span className=" contact-icon material-symbols-outlined">
                                     person
                                 </span>
                             </div>
@@ -27,7 +27,7 @@ function Contact() {
                         <Grid item>
                             <div className="contact-row">EMAIL</div>
                             <div className="contact-icon-div">
-                                <input className="contact-input"></input> <span class=" contact-icon material-symbols-outlined">
+                                <input className="contact-input"></input> <span className=" contact-icon material-symbols-outlined">
                                     mail
                                 </span>
                             </div>                        </Grid>

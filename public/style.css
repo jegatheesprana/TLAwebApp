@@ -3,13 +3,14 @@
     src: local('Heading'), url(/fonts/Heading.ttf) format('truetype');
     /* other formats include: 'woff2', 'truetype, 'opentype',
                               'embedded-opentype', and 'svg' */
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: 'Para';
     src: local('Para'), url(/fonts/Para.ttf) format('truetype');
     /* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
-  }
+                                'embedded-opentype', and 'svg' */
+}
 
 
 #loader {

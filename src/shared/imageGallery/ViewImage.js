@@ -27,10 +27,11 @@ export default function ViewImage({ open, handleClose, src }) {
                 open={open}
                 onClose={handleClose}
                 TransitionComponent={Transition}
+                disableScrollLock
             >
                 <Box sx={{ height: '100vh' }}>
-                    <AppBar sx={{ position: 'relative', bgcolor: '#08315b', height: 64 }}>
-                        <Toolbar>
+                    <AppBar sx={{ position: 'relative', bgcolor: '#08315b', height: 54 }}>
+                        <Toolbar sx={{ minHeight: '100% !important' }}>
                             <IconButton
                                 edge="start"
                                 color="inherit"
@@ -39,12 +40,12 @@ export default function ViewImage({ open, handleClose, src }) {
                             >
                                 <CloseIcon />
                             </IconButton>
-                            <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
-                                Image
+                            <Typography sx={{ ml: 2, flex: 1, fontFamily: 'Heading' }} variant="h6" component="div">
+                                புகைப்படம்
                             </Typography>
                         </Toolbar>
                     </AppBar>
-                    <Box sx={{ height: 'calc(100vh - 64px)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <Box sx={{ height: 'calc(100vh - 54px)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <Box component={'img'} sx={{ maxHeight: '100%', maxWidth: '100%' }} src={src} />
                     </Box>
                 </Box>
