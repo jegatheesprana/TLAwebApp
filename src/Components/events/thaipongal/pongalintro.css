@@ -30,12 +30,12 @@
 /* --------------------------------------- Heading ----------------------------- */
 
 .intro-container-div {
-    /* height: 100vh; */
-    background-image: url(../../../images/Introduction/intro_back.png),url(../../../images/Introduction/intro_back_flip.png);
-    background-position: right,left;
+    /* height: 100vh;
+    /* background-image: url(../../../images/Introduction/intro_back.png),url(../../../images/Introduction/intro_back_flip.png); */
+    /* background-position: right,left;
     background-size: 20%;
-    background-repeat: no-repeat; 
-}
+    background-repeat: no-repeat;  */
+} 
    
 
 .intro-container {

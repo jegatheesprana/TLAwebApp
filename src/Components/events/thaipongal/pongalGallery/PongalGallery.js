@@ -66,6 +66,7 @@ function PongalGallery() {
         //     </Container>
         // </div>
         <Container maxWidth='lg'>
+            <Heading >கலை காட்சி கூடம்</Heading>
             <ImageList
                 variant="quilted"
                 cols={4}

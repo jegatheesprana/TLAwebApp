@@ -3,7 +3,7 @@ import {
     Grid, Container
 } from '@mui/material'
 import Heading from "../../../shared/Heading";
-import './intro.css'
+import './pongalintro.css'
 
 function PongalIntro() {
     return (
@@ -13,7 +13,7 @@ function PongalIntro() {
                     <div className="pongal-landing-heading1"><span className="pongal-landing-heading-letter">தை</span>ப்பொங்கல்</div>
                 </Container>
             </div>
-            <div className="intro-container-div">
+            {/* <div className="intro-container-div"> */}
                 <Container maxWidth='xl' className="intro-container">
                     <Heading>அறிமுகம்</Heading>
                     <Grid
@@ -41,7 +41,7 @@ function PongalIntro() {
 
                     </Grid>
                 </Container>
-            </div>
+            {/* </div> */}
         </>
     );
 }
