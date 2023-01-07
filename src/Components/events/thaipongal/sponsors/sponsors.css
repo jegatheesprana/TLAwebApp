@@ -1,5 +1,5 @@
 .sponsors-container-div {
-    background-color: #F6F6F8;
+    
 }
 
 .sponsors-container {
@@ -57,4 +57,9 @@
 .sponsors-img {
     height: 250px;
     width: 250px;
+}
+
+.imageslide{
+    width: 1150px !important;
+    height: 600px !important;
 }
