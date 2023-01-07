@@ -79,3 +79,12 @@ position: relative;
     width: auto;
     border-radius: 10px;
 }
+
+.main{
+    margin: auto;
+    width: 70%;
+}
+
+.gallery-images{
+    border-radius:5px;
+}

@@ -1,6 +1,6 @@
 .pongal-landing-container-div {
     min-height: 90vh;
-    background-color: #DFE5E8;
+    /* background-color: #DFE5E8; */
     background-image: url('../../../images/Events/Card Illustration/ani4.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -30,12 +30,12 @@
 /* --------------------------------------- Heading ----------------------------- */
 
 .intro-container-div {
-    /* height: 100vh; */
-    background-image: url(../../../images/Introduction/intro_back.png),url(../../../images/Introduction/intro_back_flip.png);
-    background-position: right,left;
+    /* height: 100vh;
+    /* background-image: url(../../../images/Introduction/intro_back.png),url(../../../images/Introduction/intro_back_flip.png); */
+    /* background-position: right,left;
     background-size: 20%;
-    background-repeat: no-repeat; 
-}
+    background-repeat: no-repeat;  */
+} 
    
 
 .intro-container {
