@@ -10,12 +10,11 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 function srcset(image, size, rows = 1, cols = 1) {
     return {
-      src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-      srcSet: `${image}?w=${size * cols}&h=${
-        size * rows
-      }&fit=crop&auto=format&dpr=2 2x`,
+        src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
+        srcSet: `${image}?w=${size * cols}&h=${size * rows
+            }&fit=crop&auto=format&dpr=2 2x`,
     };
-  }
+}
 
 const images = [
     {
@@ -57,36 +56,34 @@ const images = [
 
 function PongalGallery() {
     return (
-        // <div className="gallery-container-div">
-        //     <Container maxWidth='lg' className="gallery-container">
-        //         <Heading >கலை காட்சி கூடம்</Heading>
-        //         <ImageGallery images={images} />
-        //         <div style={{ height: '10vh' }}></div>
+        <div className="gallery-container-div">
+            <Container maxWidth='lg' className="gallery-container">
+                <Heading >கலை காட்சி கூடம்</Heading>
+                <ImageGallery images={images} />
+            </Container>
+        </div>
+        // <Container maxWidth='lg'>
+        //     <Heading >கலை காட்சி கூடம்</Heading>
+        //     <ImageList
+        //         variant="quilted"
+        //         cols={4}
+        //         rowHeight={300}
+        //     >
+        //         {images.map((item) => (
+        //             <ImageListItem key={item.img} 
+        //                 sx={{ m: 0.5, borderRadius: '50%' }}
+        //                 >
+        //                 <img className="gallery-images"
+        //                     {...srcset(item.img, 121)}
+        //                     //  alt={images.title}
+        //                     loading="lazy"
+        //                 />
+        //             </ImageListItem>
+        //         ))}
 
-        //     </Container>
-        // </div>
-        <Container maxWidth='lg'>
-            <Heading >கலை காட்சி கூடம்</Heading>
-            <ImageList
-                variant="quilted"
-                cols={4}
-                rowHeight={300}
-            >
-                {images.map((item) => (
-                    <ImageListItem key={item.img} 
-                        sx={{ m: 0.5, borderRadius: '50%' }}
-                        >
-                        <img className="gallery-images"
-                            {...srcset(item.img, 121)}
-                            //  alt={images.title}
-                            loading="lazy"
-                        />
-                    </ImageListItem>
-                ))}
-            
-                {/* <div style={{ height: '10vh' }}></div> */}
-            </ImageList>
-        </Container>
+        //         {/* <div style={{ height: '10vh' }}></div> */}
+        //     </ImageList>
+        // </Container>
     );
 }
 

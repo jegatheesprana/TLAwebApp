@@ -10,23 +10,40 @@ import img4 from '../../../../images/Events/Card Illustration/ani4.png'
 import img5 from '../../../../images/Events/Card Illustration/ani5.png'
 import img6 from '../../../../images/Events/Card Illustration/ani6.png'
 import Heading from "../../../../shared/Heading";
-import ImageSlider, { Slide } from "react-auto-image-slider";
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
 const sponsorsDetails = [
     {
-        title: 'அனுசரணையாளர்',
-        img: img,
-        descriiption: 'Sponsor 1 details'
+        title: 'Platinum Sponsor',
+        img: "https://live.staticflickr.com/65535/52613194496_2d3d39870c_o.png",
+        descriiption: <p>Dear Designers and coders, <br /> we're expanding our family!<br /> Join at huex.<br /> <a className="link" href="mailto: careers@huex.io">careers@huex.io</a></p>
     },
     {
-        title: 'அனுசரணையாளர்',
-        img: img2,
-        descriiption: 'Sponsor 2 details'
+        title: 'Bronze Sponsor',
+        img: "https://live.staticflickr.com/65535/52621520282_f2868feb7f_o.png",
+        descriiption: <p>SenzAgro is a global real-time agricultural ecosystem intelligence platform created for 500 million smallholder farmers</p>
+    },
+    //     {
+    //         title: 'அனுசரணையாளர்',
+    //         img: img2,
+    //         descriiption: 'Sponsor 2 details'
+    //     },
+    //     {
+    //         title: 'அனுசரணையாளர்',
+    //         img: img3,
+    //         descriiption: 'Sponsor 3 details'
+    //     },
+]
+
+const sponsorAds = [
+    {
+        original: 'https://live.staticflickr.com/65535/52613692573_bb70fd2a1d_o.png',
+        thumbnail: 'https://live.staticflickr.com/65535/52613692573_965556921d_w.jpg',
     },
     {
-        title: 'அனுசரணையாளர்',
-        img: img3,
-        descriiption: 'Sponsor 3 details'
+        original: 'https://live.staticflickr.com/65535/52613626390_0a7b41282f_o.png',
+        thumbnail: 'https://live.staticflickr.com/65535/52613626390_afc56b4476_w.jpg',
     },
 ]
 
@@ -44,11 +61,13 @@ function Sponsors() {
                 >
                     {sponsorsDetails.map((sponsor, index) => <>
 
-                        <Grid item xl='4' lg='4' md='4' sm='6' xs='12'   >
+                        <Grid item xl='4' lg='4' md='4' sm='6' xs='12' key={index}  >
                             <div className="sponsors-card">
                                 <div className="sponsors-card-top">
                                     <div className="sponsors-card-title"> {sponsor.title}</div>
-                                    <div><img src={sponsor.img} alt="" className="sponsors-img" /></div>
+                                    <div className="sponsors-img-cont">
+                                        <img src={sponsor.img} alt="" className="sponsors-img" />
+                                    </div>
                                 </div>
                                 <div className="sponsors-heading1">{sponsor.descriiption}</div>
                             </div>
@@ -58,19 +77,7 @@ function Sponsors() {
 
                 </Grid>
             </Container>
-            <Container maxWidth='lg' >
-                    <ImageSlider effectDelay={2000} autoPlayDelay={2000} >
-                        <Slide  >
-                            <img className="imageslide" alt="img2" src="https://www.shutterstock.com/image-photo/surreal-image-african-elephant-wearing-260nw-1365289022.jpg" />
-                        </Slide>
-                        <Slide>
-                            <img className="imageslide" alt="img2" src="https://www.shutterstock.com/image-illustration/elephant-zebra-skin-be-different-260nw-2135376329.jpg" />
-                        </Slide>
-                        <Slide>
-                            <img className="imageslide" alt="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBnOfpYdjm6sB6XJaZZK4BvffuN9j_aejUxDkLiPfCl506ZlZWvLOP5RvArDQrNgLfHQ&usqp=CAU" />
-                        </Slide>
-                    </ImageSlider>
-            </Container>
+            {/* <ImageGallery autoPlay items={sponsorAds} /> */}
         </div>
     );
 }

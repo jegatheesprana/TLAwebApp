@@ -32,7 +32,7 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }} className='nav-Items'>
-        <Link to="/" style={{ display: 'flex' }}>
+        <Link to="/" style={{ display: 'flex', justifyContent: 'center' }}>
           <img src={Logo} alt='' height={50} />
         </Link>
       </Typography>

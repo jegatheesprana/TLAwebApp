@@ -4,6 +4,7 @@ import { useRoutes } from 'react-router-dom';
 
 import Home from './Pages/Home'
 import Thaipongal from './Pages/events/Thaipongal';
+import ComingSoon from './Pages/comingSoon/ComingSoon';
 
 function Router() {
     return (
@@ -18,7 +19,11 @@ function Router() {
                     {
                         path: 'thaipongal',
                         element: <Thaipongal />
-                    }
+                    },
+                    {
+                        path: 'comingSoon',
+                        element: <ComingSoon />
+                    },
                 ]
             },
         ])

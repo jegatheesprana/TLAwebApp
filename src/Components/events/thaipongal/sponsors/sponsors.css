@@ -53,13 +53,23 @@
     overflow: auto;
 }
 
+.sponsors-img-cont {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .sponsors-img {
-    height: 250px;
-    width: 250px;
+    max-height: 250px;
+    max-width: 250px;
 }
 
 .imageslide{
     width: 1150px !important;
     height: 600px !important;
+}
+
+a.link {
+    color: #08315b;
 }

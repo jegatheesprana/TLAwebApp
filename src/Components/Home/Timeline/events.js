@@ -9,35 +9,35 @@ const events = [
     {
         title: 'சொற்கணை',
         active: false,
-        link: '/events/thaipongal',
+        link: '/events/comingSoon',
         date: 'TBD',
         descriiption: 'மாபெரும் விவாதச்சமர்.'
     },
     {
         title: 'தமிழருவி',
         active: false,
-        link: '/events/thaipongal',
+        link: '/events/comingSoon',
         date: 'TBD',
         descriiption: 'பிரம்மாண்டத்தின் உச்சமாக நடைபெறும் கலை நிகழ்வு "தமிழருவி" ஆகும்'
     },
     {
         title: 'ஒளிச்சுவடு',
         active: false,
-        link: '/events/thaipongal',
+        link: '/events/comingSoon',
         date: 'TBD',
         descriiption: 'கலைதுறையில் ஆர்வம் காட்டத்துடிக்கும் மாணவர்களின் அருமையை வெளிக்கொணரும் ஒளிப்பட போட்டியே "ஒளிச்சுவடு" ஆகும்'
     },
     {
         title: 'இரத்ததான முகாம் ',
         active: false,
-        link: '/events/thaipongal',
+        link: '/events/comingSoon',
         date: 'TBD',
         descriiption: 'எமது சொந்தங்களை உதவிக்கரம் கொடுத்து உயிரை காப்பாற்றும் வகையில் மேற்கொள்ளப்பட்டு வருகின்றது.'
     },
     {
         title: 'ஜீவநதி',
         active: false,
-        link: '/events/thaipongal',
+        link: '/events/comingSoon',
         date: 'TBD',
         descriiption: 'இது மொறட்டுவைப் பல்கலைக்கழக தமிழ் இலக்கிய மன்றத்தின் ஜீவ காருண்யப் பயணம்.'
     },
