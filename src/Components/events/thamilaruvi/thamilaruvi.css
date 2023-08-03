@@ -1,0 +1,17 @@
+.thaipongal-container{
+    min-height: 90vh;
+    /* background-color: #DFE5E8; */
+    background-image: url('../../../images/Introduction/circle2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.thaipongal-container2{
+    min-height: 90vh;
+    /* background-color: #DFE5E8; */
+    background-image: url('../../../images/Introduction/circle2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
