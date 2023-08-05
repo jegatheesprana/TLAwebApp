@@ -5,40 +5,44 @@ import {
 import Heading from "../../../../shared/Heading";
 import ImageGallery from "../../../../shared/imageGallery/ImageGallery";
 import './thamilaruviGallery.css'
+const images = [{
+    img: "https://live.staticflickr.com/65535/53094790989_4e08b29e95_o.jpg",
+    thumbnail: 'https://live.staticflickr.com/65535/53094790989_31f8e4fc7a_w.jpg',
+},
+{
+    img: "https://live.staticflickr.com/65535/53095011135_542337fa84_o.jpg",
+    thumbnail: 'https://live.staticflickr.com/65535/53095011135_dab2a9ba99_w.jpg',
+},
+{
+    img: "https://live.staticflickr.com/65535/53094048587_3c588f93bc_o.jpg",
+    thumbnail: "https://live.staticflickr.com/65535/53094048587_29bb371b18_w.jpg"
 
-const images = [
-    {
-        img: "https://live.staticflickr.com/65535/52606586515_60c4bb0604_o.jpg",
-        thumbnail: 'https://live.staticflickr.com/65535/52606586515_0632e1b352_w.jpg',
-    },
-    {
-        img: "https://live.staticflickr.com/65535/52606422409_c381d93e2d_o.jpg",
-        thumbnail: 'https://live.staticflickr.com/65535/52606422409_8599e04626_w.jpg',
-    },
-    {
-        img: "https://live.staticflickr.com/65535/52606668793_697efab0a6_o.jpg",
-        thumbnail: 'https://live.staticflickr.com/65535/52606668793_cf09949085_w.jpg',
-    },
-    {
-        img: 'https://live.staticflickr.com/65535/52606422549_f8c59bac2b_o.jpg',
-        thumbnail: 'https://live.staticflickr.com/65535/52606422549_f571a4b03d_w.jpg',
-    },
-    {
-        img: "https://live.staticflickr.com/65535/52606166211_c84bb1ed45_o.jpg",
-        thumbnail: 'https://live.staticflickr.com/65535/52606166211_1fa353177d_w.jpg',
-    },
-    {
-        img: "https://live.staticflickr.com/65535/52606586720_0958ec7b8b_o.jpg",
-        thumbnail: 'https://live.staticflickr.com/65535/52606586720_39e3ecdde3_w.jpg',
-    },
-    {
-        img: "https://live.staticflickr.com/65535/52606586710_25fd620e61_o.jpg",
-        thumbnail: 'https://live.staticflickr.com/65535/52606586710_7d732ab053_w.jpg',
-    },
-    {
-        img: "https://live.staticflickr.com/65535/52606166236_c1199938f2_o.jpg",
-        thumbnail: 'https://live.staticflickr.com/65535/52606166236_ed9c5d3e8f_w.jpg',
-    },
+},
+{
+    img: "https://live.staticflickr.com/65535/53095011130_b7e391510d_o.jpg",
+    thumbnail: "https://live.staticflickr.com/65535/53095011130_088fedddf1_w.jpg"
+
+},
+{
+    img: "https://live.staticflickr.com/65535/53094048602_9b9c7529bf_o.jpg",
+    thumbnail: "https://live.staticflickr.com/65535/53094048602_2ff91ea1c9_w.jpg"
+
+},
+{
+    img: "https://live.staticflickr.com/65535/53094048612_471bd04360_o.jpg",
+    thumbnail: "https://live.staticflickr.com/65535/53094048612_d41983a81b_w.jpg"
+
+},
+{
+    img: "https://live.staticflickr.com/65535/53095011145_9d7b0461db_o.jpg",
+    thumbnail: "https://live.staticflickr.com/65535/53095011145_5b37c7d37f_w.jpg"
+
+},
+{
+    img: "https://live.staticflickr.com/65535/53094616811_f1972e90b7_o.jpg",
+    thumbnail: "https://live.staticflickr.com/65535/53094616811_f6710796c6_w.jpg"
+
+}
 ]
 
 
