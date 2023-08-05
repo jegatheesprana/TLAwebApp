@@ -8,9 +8,9 @@ import './thamilaruviintro.css'
 function PongalIntro() {
     return (
         <>
-            <div className="pongal-landing-heading1"><span className="pongal-landing-heading-letter">தமிழருவி</span></div>
-            <div className="pongal-landing-container-div">
-                <Container maxWidth='' className="pongal-landing-container">
+            <div className="thamilaruvi-landing-heading1"><span className="thamilaruvi-landing-heading-letter">தமிழருவி</span></div>
+            <div className="thamilaruvi-landing-container-div">
+                <Container maxWidth='' className="thamilaruvi-landing-container">
                 </Container>
             </div>
             {/* <div className="intro-container-div"> */}

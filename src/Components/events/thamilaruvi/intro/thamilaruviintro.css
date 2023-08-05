@@ -1,4 +1,4 @@
-.pongal-landing-container-div {
+.thamilaruvi-landing-container-div {
     min-height: 90vh;
     /* background-color: #DFE5E8; */
     background-image: url('../../../../images/Events/Card Illustration/ani2.png');
@@ -6,11 +6,11 @@
     background-repeat: no-repeat;
 }
 
-.pongal-landing-container {
+.thamilaruvi-landing-container {
     min-height: 90vh;
 }
 
-.pongal-landing-heading1 {
+.thamilaruvi-landing-heading1 {
     color: #022345 !important;
     font-size: 50px !important;
     font-family: 'Heading' !important;
@@ -21,7 +21,7 @@
 }
 
 
-.pongal-landing-heading-letter {
+.thamilaruvi-landing-heading-letter {
     font-size: 70px;
     line-height: 1;
 }
