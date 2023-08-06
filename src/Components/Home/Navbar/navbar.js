@@ -106,7 +106,6 @@ function Navbar(props) {
       </Box>
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
-
       </Box>
     </Box>
 

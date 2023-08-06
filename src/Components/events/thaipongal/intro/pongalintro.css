@@ -35,8 +35,8 @@
     /* background-position: right,left;
     background-size: 20%;
     background-repeat: no-repeat;  */
-} 
-   
+}
+
 
 .intro-container {
     /* height: 100vh; */
@@ -56,12 +56,12 @@
 .intro-heading1 {
 
     color: #717274 !important;
-    
+
     font-size: 30px !important;
     font-family: 'Para' !important;
     letter-spacing: normal;
     text-align: center;
-    
+
 
 }
 
@@ -84,16 +84,16 @@
     .intro-heading {
         font-size: 80px !important;
     }
-    
+
     .intro-heading1 {
         font-size: 30px !important;
     }
-    
-    
+
+
     .intro-heading2 {
-       
+
         font-size: 35px !important;
-        
+
     }
 }
 
@@ -102,17 +102,17 @@
     .intro-heading {
         font-size: 80px !important;
     }
-    
+
     .intro-heading1 {
         font-size: 30px !important;
-        
+
     }
-    
-    
+
+
     .intro-heading2 {
-       
+
         font-size: 35px !important;
-        
+
     }
 }
 
@@ -121,17 +121,17 @@
     .intro-heading {
         font-size: 80px !important;
     }
-    
+
     .intro-heading1 {
         font-size: 30px !important;
-        
+
     }
-    
-    
+
+
     .intro-heading2 {
-       
+
         font-size: 35px !important;
-        
+
     }
 }
 
@@ -140,37 +140,38 @@
     .intro-heading {
         font-size: 80px !important;
     }
-    
+
     .intro-heading1 {
         font-size: 30px !important;
-        
+
     }
-    
-    
+
+
     .intro-heading2 {
-       
+
         font-size: 35px !important;
-        
+
     }
-    
+
 }
+
 @media only screen and (min-width: 1100px) {
     .intro-heading {
         font-size: 80px !important;
     }
-    
+
     .intro-heading1 {
         font-size: 30px !important;
-        
+
     }
-    
-    
+
+
     .intro-heading2 {
-       
+
         font-size: 35px !important;
-        
+
     }
-    
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -178,16 +179,16 @@
     .intro-heading {
         font-size: 80px !important;
     }
-    
+
     .intro-heading1 {
         font-size: 30px !important;
-        
+
     }
-    
-    
+
+
     .intro-heading2 {
-       
+
         font-size: 35px !important;
-        
+
     }
 }
