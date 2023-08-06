@@ -3,21 +3,21 @@ const events = [
         title: 'தைப்பொங்கல் ',
         active: true,
         link: '/events/thaipongal',
-        date: '08/01/2023',
+        date: '08.01.2023',
         descriiption: 'தைமாதம் பல்கலைகழக வளாகத்தினுள் பாரம்பரியத்தை பறைசாற்றும் வகையில் பாரம்பரிய தமிழர் விளையாட்டுக்களுடன் விழாக்கோலம் கானும்'
     },
     {
         title: 'சொற்கணை',
         active: true,
         link: '/events/comingSoon',
-        date: 'TBD',
+        date: '10/11.07.2013',
         descriiption: 'மாபெரும் விவாதச்சமர்.'
     },
     {
         title: 'தமிழருவி',
         active: true,
         link: '/events/thamilaruvi',
-        date: '06/08/2023',
+        date: '06.08.2023',
         descriiption: 'பிரம்மாண்டத்தின் உச்சமாக நடைபெறும் கலை நிகழ்வு "தமிழருவி" ஆகும்'
     },
     {
