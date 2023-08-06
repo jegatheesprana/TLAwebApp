@@ -8,16 +8,16 @@ const events = [
     },
     {
         title: 'சொற்கணை',
-        active: false,
+        active: true,
         link: '/events/comingSoon',
         date: 'TBD',
         descriiption: 'மாபெரும் விவாதச்சமர்.'
     },
     {
         title: 'தமிழருவி',
-        active: false,
-        link: '/events/comingSoon',
-        date: 'TBD',
+        active: true,
+        link: '/events/thamilaruvi',
+        date: '06/08/2023',
         descriiption: 'பிரம்மாண்டத்தின் உச்சமாக நடைபெறும் கலை நிகழ்வு "தமிழருவி" ஆகும்'
     },
     {
